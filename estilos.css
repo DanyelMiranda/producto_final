@@ -1,0 +1,18 @@
+
+
+.rotulo {
+	font-family: arial;
+	color: white;
+	border: solid 2px red;
+	text-align: center;
+}
+
+.material-icons {
+	color: white;
+	border: solid 2px red;
+	text-align: left;
+}
+
+.container {
+	width: 100%;
+}

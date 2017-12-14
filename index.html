@@ -1,17 +1,85 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>School me</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="estlos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  	<!-- Inicia buscador de materias --> 
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h4 class="text-white">School me</h4>
+          <span class="text-muted">Encuentra a los mejores tutores</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="rotulo">School me</span>
+        <i class="material-icons">account_circle</i>
+      </nav>
+    </div>
+    <h1>School me!</h1>
+    <br>
+    <br>
+    	<!-- Buscador -->
+    <div class="row">
+    <div class="col-lg-6 offset-lg-3">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Busca tu materia..." aria-label="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button">Buscar</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- Example single danger button -->
+    <div class="container col-lg-6">
+    	<div class="btn-group">
+    	  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    	    Materias populares
+    	  </button>
+    	  <div class="dropdown-menu">
+    	    <a class="dropdown-item" href="#">Sociología</a>
+    	    <a class="dropdown-item" href="#">Derecho</a>
+    	    <a class="dropdown-item" href="#">Administración</a>
+    	  </div>
+    	</div>
+    	<div class="btn-group">
+    	  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    	    Empresas
+    	  </button>
+    	  <div class="dropdown-menu">
+    	    <a class="dropdown-item" href="#">UX</a>
+    	    <a class="dropdown-item" href="#">Desarrollo web</a>
+    	    <a class="dropdown-item" href="#">Consultoría</a>
+    	  </div>
+    	</div>
+    	<div class="btn-group">
+    	  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    	    Escuelas
+    	  </button>
+    	  <div class="dropdown-menu">
+    	    <a class="dropdown-item" href="#">Nivel Básico</a>
+    	    <a class="dropdown-item" href="#">Medio superior</a>
+    	    <a class="dropdown-item" href="#">Universitario</a>
+    	  </div>
+    	</div>
+    </div>
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
