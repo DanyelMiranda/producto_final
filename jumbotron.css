@@ -1,0 +1,25 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.jumbotron {
+  display: flex;
+  height: 500px;
+  background-image: url("image2.jpg");
+  background-size: cover;
+
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.size {
+
+  width: 250px;
+}
